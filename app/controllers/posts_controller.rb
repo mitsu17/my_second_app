@@ -8,5 +8,9 @@ class PostsController < ApplicationController
   
   end
 
+  def create
+    Post.create()
+  end
+  
 
 end
